@@ -1,7 +1,5 @@
 Hello everyone,
-
-I am learning full stack web development.
-
+	I am harish from Chhattisagrh. Now , I am learning full stack web development.
 
 contact me:
 HARISH KUMAR
