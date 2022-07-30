@@ -23,7 +23,7 @@
 // let b = 6;
 
 // // a = 5;  // value change here
-// a += 5;     // x = x+y
+// x += 5;     // x = x+y
 // a -= 5;     // x = x-y
 // a *= 5;     // x = x*y
 // a /= 5;     // x = x/y
