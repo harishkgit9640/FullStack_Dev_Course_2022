@@ -63,10 +63,18 @@
 
 // # Print the table of n number
 
-const Table = [];
-for(let i = 1; i<=10; i++){
-    Table.push([
-        2*i, 3*i, 4*i, 5*i, 6*i, 7*i, 8*i, 9*i, 10*i
-    ]);
-}
-console.table(Table);
+// const Table = [];
+// for(let i = 1; i<=10; i++){
+//     Table.push([
+//         2*i, 3*i, 4*i, 5*i, 6*i, 7*i, 8*i, 9*i, 10*i
+//     ]);
+// }
+// console.table(Table);
+
+// #10 method .filter()
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present','1234','123','12345'];
+
+const result = words.filter(word => word.length > 4 );
+
+console.log(result);
+// expected output: Array ["exuberant", "destruction", "present"]
