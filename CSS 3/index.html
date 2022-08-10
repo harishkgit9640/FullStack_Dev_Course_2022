@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance CSS / CSS3 </title>
+
+    <style>
+        h1 {
+            font-size: 34px;
+            text-align: center;
+            color: royalblue;
+            font-family: 'Forte';
+            border-bottom: 2px solid royalblue;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .text {
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .shadow_Text {
+            font-family: 'Script MT';
+            color: #00b3b4;
+            display: inline-block;
+            position: relative;
+            text-shadow: 2px 2px 0px #fff,
+                3px 3px 3px #111,
+                4px 4px 4px #222,
+                5px 5px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .threeDText {
+            font-size: 80px;
+            font-family: 'Impact';
+            letter-spacing: 3px;
+            font-weight: 700;
+            color: #f2395a;
+            text-transform: uppercase;
+            -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+            transform: skew(-5deg, -5deg) rotate(5deg);
+            -webkit-transform-origin: center center;
+            transform-origin: center center;
+            text-shadow: 1px 1px #890920,
+                2px 2px #d10e31,
+                3px 3px #890920,
+                4px 4px #d10e31,
+                5px 5px #890920,
+                6px 6px #d10e31,
+                7px 7px #890920,
+                8px 8px #890920,
+                9px 9px #890920,
+                10px 10px #890920;
+        }
+
+        .demoText {
+            font-size: 80px;
+            font-family: 'Impact';
+            letter-spacing: 3px;
+            font-weight: 900;
+            color: #f2395a;
+            text-transform: uppercase;
+            text-shadow: #00b3b4 2px 2px 5px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1> How to make 3D text using CSS </h1>
+
+    <div class="text">
+
+        <h2 class="shadow_Text">Special Style</h2>
+        <p class="threeDText">3D Text Type</p>
+
+        <div class="demoText"> Harish </div>
+    </div>
+
+</body>
+
+</html>
