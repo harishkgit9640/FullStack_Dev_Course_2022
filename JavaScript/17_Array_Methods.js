@@ -36,8 +36,10 @@
 
 // #6 method .splice()
 // let fruits = ['Apple','grapes','Orange','Banana'];
-// const spliceMethod = fruits.splice(0);  // truecete the value into the array
+// console.log(fruits);
+// const spliceMethod = fruits.splice(0,2,'papaya','blackbarry');  // truecete the value into the array
 // console.log(spliceMethod);
+// console.log(fruits);
 
 // #7 method .foreEach()
 // let fruits = ['Apple','grapes','Orange','Banana'];
@@ -60,7 +62,6 @@
 // const objCopy = [...fruits]; // using (...) You can copy the Array
 // console.log(objCopy);
 
-
 // # Print the table of n number
 
 // const Table = [];
@@ -72,9 +73,89 @@
 // console.table(Table);
 
 // #10 method .filter()
-const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present','1234','123','12345'];
+// const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present','1234','123','12345'];
 
-const result = words.filter(word => word.length > 4 );
+// const result = words.filter(word => word.length > 4 );
 
-console.log(result);
+// console.log(result);
 // expected output: Array ["exuberant", "destruction", "present"]
+
+// const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present','1234','123','12345'];
+// console.log(words);
+
+// delete words[0];
+// console.log(words);
+
+// let compare = (a,b) =>{
+//     return (a - b);
+// }
+// let Nnum = [1,2,16,4,15,23];
+// Nnum.sort(compare);
+// console.log(Nnum);
+
+// # method.slice();
+// let Nnum = [1,2,16,4,15,23];
+// console.log(Nnum.slice(2,4));
+
+//# method.severse();
+// let Nnum = [1,2,16,4,15,23];
+// console.log(Nnum.reverse());
+
+// LOOPING THROUGH ARRAY
+
+// #1 FOR EACH LOOP()
+
+// let words = [a,b,c,d,e,f,g,h,i,j,k];
+// let number = [1,2,3,4,5,6];
+/*
+let obj = [
+    {
+        rollNo : 202201,
+        stdName : "Harish Kumar",
+        Age : 23,
+        section : "A+",
+        add : "Hyderabad"
+    },
+    {
+        rollNo : 202202,
+        stdName : "Dinesh Kumar",
+        Age : 19,
+        section : "A+",
+        add : 'Kurnool'
+    },
+    {
+        rollNo : 202203,
+        stdName : "Pranay",
+        Age : 24,
+        section : "A+",
+        add : "Gondia"
+    }
+]
+obj.forEach(Array => {
+    console.log(Array);
+});
+*/
+
+// let words = [1,2,3,4];
+// words.map(Array =>{
+//     return Array * Array;
+// });
+// let Details = [
+//   {
+//     rollNo: 202201,
+//     stdName: 'Harish Kumar',
+//     Age: 23,
+//     section: 'A+',
+//     add: 'Hyderabad',
+//   },
+// ];
+
+// FOR IN LOOP
+
+// for (const key in number) {
+//   console.log(key + '  -  ' + number[key]);
+// }
+let word = [1, 2, 3, 4, 5, 6];
+for (const value of word) {
+  console.log(value);
+}
