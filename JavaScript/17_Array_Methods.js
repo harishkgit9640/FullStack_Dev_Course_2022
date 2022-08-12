@@ -57,7 +57,7 @@
 // const newObj = fruits.concat('papaya','pineapple'); // Adding / merging the new value in existing array
 // console.log(newObj);
 
-// #10 method .Concate()
+// #10 method ...copy()
 // let fruits = ['Apple','grapes','Orange','Banana'];
 // const objCopy = [...fruits]; // using (...) You can copy the Array
 // console.log(objCopy);
@@ -155,6 +155,8 @@ obj.forEach(Array => {
 // for (const key in number) {
 //   console.log(key + '  -  ' + number[key]);
 // }
+
+// FOR OF LOOP
 let word = [1, 2, 3, 4, 5, 6];
 for (const value of word) {
   console.log(value);
