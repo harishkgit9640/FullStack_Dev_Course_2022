@@ -157,7 +157,9 @@ obj.forEach(Array => {
 // }
 
 // FOR OF LOOP
-let word = [1, 2, 3, 4, 5, 6];
-for (const value of word) {
-  console.log(value);
-}
+// let word = [1, 2, 3, 4, 5, 6];
+// for (const value of word) {
+//   console.log(value);
+// }
+
+// We are demostrating map,filter, and reduce Method in Modern JavaScript

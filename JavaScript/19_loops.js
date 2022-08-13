@@ -37,34 +37,26 @@
 // for (let i in obj) {
 //   console.log(i, obj[i]);
 // }
-// const array = [15, 16, 17, 18, 19];
 
-// function reducer(previous, current, index) {
-//   const returns = previous + current;
-//   console.log(
-//     `previous: ${previous}, current: ${current}, index: ${index}, returns: ${returns}`
-//   );
-//   return returns;
-// }
-
+// let fruits = ['Apple', 'Banana', 'pineApple', 'Grapes', 'Orange'];
 // array.reduce(reducer);
-let words1 = 'abcdefghijk';
-words1 = Array.from(words1);
+// let words1 = 'abcdefghijk';
+// words1 = Array.from(words1);
 
-// # doWhile loop
+// #5 doWhile loop
 // let i = 0;
 // do {
 //   console.log(words1[i]);
 //   i++;
 // } while (i <= words1.length - 1);
 
-let i = 0;
-while (i <= words1.length - 1) {
-  console.log(words1[i]);
-  i++;
-}
+// let i = 0;
+// while (i <= words1.length - 1) {
+//   console.log(words1[i]);
+//   i++;
+// }
 
-// # while loop
+// #6 while loop
 // let arr = [1, 2, 4, 5, 6];
 // let i = 0;
 // while (i <= arr.length - 1) {
@@ -87,3 +79,12 @@ while (i <= words1.length - 1) {
 // words.forEach((element) => {
 //   console.log(element);
 // });
+
+// Break statement in Looping
+let a = [1, 2, 3, 4, 5, 6];
+for (let i = 0; i <= a.length - 1; i++) {
+  console.log(a[i]);
+  if (i >= 3) {
+    break;
+  }
+}
