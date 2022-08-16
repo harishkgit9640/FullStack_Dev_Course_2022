@@ -130,17 +130,100 @@ console.log(arr);
 //===================//========================//===================
 //Question No.10 - Javascript Program to Check if a number is Positive, Negative, or Zero
 
-let number = parseInt(prompt("Enter The Number"));
-
-// let number = 10;
-if (number == 0) {
-    alert("Enterd number is ZERO ");
-}
-if (number > 0) {
-    alert("Enterd number is Passitive ");
-} else {
-    alert("Enterd number is Negetive ");
-}
+// let number = parseInt(prompt("Enter The Number"));
+// // let number = 10;
+// if (number == 0) {
+//     console.log("Enterd number is Zero", number);
+// }
+// if (number > 0) {
+//     console.log("Enterd number is Pasitive +ve: ", number);
+// } else {
+//     console.log("Enterd number is Negetive -ve :", number);
+// }
 
 //===================//========================//===================
-//Question No.11 -
+//Question No.11 - Javascript Program to Check if a Number is Odd or Even
+
+// let num = parseInt(prompt("Enter The Number"));
+// if (num % 2 == 0) {
+//     console.log(`${num} is Even Number`);
+// } else {
+//     console.log(`${num} is Odd Number`);
+// }
+
+//===================//========================//===================
+//Question No.12 - JavaScript Program to Find the Largest Among Three Numbers
+// let num1 = parseInt(prompt("Enter The Number1"));
+// let num2 = parseInt(prompt("Enter The Number2"));
+// let num3 = parseInt(prompt("Enter The Number3"));
+
+// if (num1 > num2 && num1 > num3) {
+//     console.log(`${num1} is Largest number`);
+
+// } else if (num2 > num1 && num2 > num3) {
+//     console.log(`${num2} is Largest number`);
+// }
+// else {
+//     console.log(`${num3} is Largest number`);
+// }
+
+//===================//========================//===================
+//Question No.13 - JavaScript Program to Check Prime Number
+// let num = parseInt(prompt("Enter The Number"));
+// // let num = 5;
+// let count = 0;
+// if (num <= 0) {
+//     console.log(num, "Please Enter the positive number");
+// }
+// else if (num == 1) {
+//     console.log("1 is nieghter prime number nor composite number");
+// } else {
+//     for (let i = 1; i <= num; i++) {
+//         let rem = num % i;
+//         if (rem == 0) {
+//             count++;
+//         }
+//     }
+//     if (count == 2) {
+//         console.log(num, " is Prime Number");
+//     }
+//     else {
+//         console.log(num, " is not Prime Number");
+//     }
+// }
+//===================//========================//===================
+//Question No.14 - JavaScript Program to Print All Prime Numbers in an Interval
+// let minNum = 1;
+// let maxNum = 20;
+
+// console.log(`the prime number between ${minNum} and ${maxNum} are: `);
+// for (let i = minNum; i <= maxNum; i++) {
+//     let round = 0;
+//     for (let j = 2; j < i; j++) {
+//         if (i % j == 0) {
+//             round = 1;
+//             break;
+//         }
+//     }
+
+//     // if number greater than 1 and not divisible by other numbers
+//     if (i > 1 && round == 0) {
+//         console.log(i);
+//     }
+// }
+
+
+//===================//========================//===================
+//Question No.15 - JavaScript Program to Find the Factorial of a Number
+let useInput = 5;
+let fact = 1;
+if (useInput === 0 || useInput === 1) {
+    console.log("The factorial of", useInput, "is 1");
+} else {
+    for (let i = 1; i <= useInput; i++) {
+        fact = fact * i; // 1x2x3x4x5 = 120
+        console.log(fact);
+    }
+}
+
+
