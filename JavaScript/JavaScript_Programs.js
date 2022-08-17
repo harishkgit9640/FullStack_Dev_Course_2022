@@ -294,21 +294,44 @@ console.log(arr);
 
 //===================//========================//===================
 // Question No.20 - JavaScript Program to Find the Sum of Natural Numbers
-let user = parseInt(prompt("Enter the Number"));
-let sum = 0;
-for (let i = 1; i <= user; i++) {
-    sum += i;
-}
-console.log("The sum of the ", user, "Natural Number is : ", sum);
+// let user = parseInt(prompt("Enter the Number"));
+// let sum = 0;
+// for (let i = 1; i <= user; i++) {
+//     sum += i;
+// }
+// console.log("The sum of the ", user, "Natural Number is : ", sum);
 
 
 //===================//========================//===================
-// Question No.21 -
-
+// Question No.21 - JavaScript Program to Check if the Numbers Have Same Last Digit
 // let num1 = parseInt(prompt("Enter the Number1"));
+// let a = 34, b = 58, c = 64;
+// let result1 = a % 10;
+// let result2 = b % 10;
+// let result3 = c % 10;
+// // console.log(result1);
+// // console.log(result2);
+// // console.log(result3);
+// if (result1 === result2 && result1 === result3) {
+//     console.log("It is same Digit");
+// } else {
+//     console.log("It is not same Digit");
 
+// }
 //===================//========================//===================
-// Question No.22 -
+// Question No.22 - JavaScript Program to Find HCF or GCD
+// let HCF;
+// let a = parseInt(prompt("Enter the Number1"));
+// let b = parseInt(prompt("Enter the Number2"));
+// let a = 60; b = 72;
+
+// for (let i = 1; i <= a && i <= b; i++) {
+//     if (a % i == 0 && b % i == 0) {
+//         HCF = i;
+//     }
+// }
+// console.log("It is HCF", HCF);
+
 //===================//========================//===================
 // Question No.23 -
 //===================//========================//===================
