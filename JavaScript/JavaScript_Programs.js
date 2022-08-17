@@ -215,15 +215,101 @@ console.log(arr);
 
 //===================//========================//===================
 //Question No.15 - JavaScript Program to Find the Factorial of a Number
-let useInput = 5;
-let fact = 1;
-if (useInput === 0 || useInput === 1) {
-    console.log("The factorial of", useInput, "is 1");
-} else {
-    for (let i = 1; i <= useInput; i++) {
-        fact = fact * i; // 1x2x3x4x5 = 120
-        console.log(fact);
-    }
+
+// let useInput = 5;
+// let fact = 1;
+// if (useInput === 0 || useInput === 1) {
+//     console.log("The factorial of", useInput, "is 1");
+// } else {
+//     for (let i = 1; i <= useInput; i++) {
+//         fact = fact * i; // 1x2x3x4x5 = 120
+//     }
+//     console.log("Sum of the Factorial " + useInput + " is: " + fact);
+// }
+
+//===================//========================//===================
+// Question No.16 - JavaScript Program to Display the Multiplication Table
+// let user = 7;
+// for (let i = 1; i <= 12; i++) {
+//     console.log(user + " X " + i + " is = " + user * i);
+// }
+
+//===================//========================//===================
+// Question No.17 - // program to generate fibonacci series up to n terms
+
+// let user = 8;
+// let num1 = 0, num2 = 1, nextTerm;
+// let sum = 0
+// for (let i = 1; i <= user; i++) {
+//     console.log(num1);
+//     nextTerm = num1 + num2;
+//     num1 = num2;
+//     num2 = nextTerm;
+//     sum += nextTerm;
+// }
+// console.log(sum);
+
+//===================//========================//===================
+// Question No.18 - program to check an Armstrong number of three digits
+// let user = parseInt(prompt("Enter the Number"));
+// let user = 153;
+
+// let sum = 0;
+// let num = user;
+// while (num > 0) {
+//     let rem = num % 10;
+//     sum += rem * rem * rem;
+//     num = parseInt((num / 10));
+// }
+// if (sum === user) {
+//     console.log(user, "is Armstrong userber");
+// } else {
+//     console.log(user, "is not Armstrong number");
+
+// }
+// //===================//========================//===================
+// // Question No.19 - program for a simple calculator
+// let result;
+// let num1 = parseInt(prompt("Enter the Number1"));
+// let operator = prompt("Enter the Operator(+, -, *, /, %)");
+// let num2 = parseInt(prompt("Enter the Number2"));
+
+// if (operator == "+") {
+//     result = num1 + num2;
+
+// } if (operator == "-") {
+//     result = num1 - num2;
+
+// } if (operator == "*") {
+//     result = num1 * num2;
+// }
+// if (operator == "/") {
+//     result = num1 / num2;
+// }
+// if (operator == "%") {
+//     result = num1 % num2;
+// }
+
+// alert(`${num1} ${operator} ${num2} = ${result}`);
+
+//===================//========================//===================
+// Question No.20 - JavaScript Program to Find the Sum of Natural Numbers
+let user = parseInt(prompt("Enter the Number"));
+let sum = 0;
+for (let i = 1; i <= user; i++) {
+    sum += i;
 }
+console.log("The sum of the ", user, "Natural Number is : ", sum);
 
 
+//===================//========================//===================
+// Question No.21 -
+
+// let num1 = parseInt(prompt("Enter the Number1"));
+
+//===================//========================//===================
+// Question No.22 -
+//===================//========================//===================
+// Question No.23 -
+//===================//========================//===================
+// Question No.24 - 

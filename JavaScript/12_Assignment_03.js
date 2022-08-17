@@ -1,21 +1,21 @@
 // write the program for print the table of any number
-// let num = 2;
-// for(let i = 1; i<=12; i++){
-//     for(let j = 1; j<=5; j++){
-//         let table = i*j;
-//         console.log(table);
-//     }
-//         console.log();
-    
-// }
+let num = 2;
+for (let i = 1; i <= 12; i++) {
+    for (let j = 1; j <= 5; j++) {
+        let table = i * j;
+        console.log(table);
+    }
+    console.log();
+
+}
 
 
 
 const mark = {
-    Harish  : 50,
-    Pranay  : 60,
-    Ramraj  : 41,
-    Anmol   : 48
+    Harish: 50,
+    Pranay: 60,
+    Ramraj: 41,
+    Anmol: 48
 }
 
 // #1 Ways of use looping 
@@ -42,9 +42,9 @@ const mark = {
 
 
 // #4 Solution
-const mean = (a,b,c,d) =>{
-    return (a+b+c+d)/4;
+const mean = (a, b, c, d) => {
+    return (a + b + c + d) / 4;
 }
-console.log(mean(2,3,4,5));
+console.log(mean(2, 3, 4, 5));
 
 
