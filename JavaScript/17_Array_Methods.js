@@ -162,4 +162,16 @@ obj.forEach(Array => {
 //   console.log(value);
 // }
 
-// We are demostrating map,filter, and reduce Method in Modern JavaScript
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+let arr = [];
+let user;
+let num = parseInt(prompt("Enter The number:"));
+for (let i = 1; i <= num; i++) {
+    user = i;
+    arr.push(user);
+}
+console.log(arr);
+console.log(arr.reverse());
+
+
+
