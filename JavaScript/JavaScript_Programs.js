@@ -170,27 +170,27 @@ console.log(arr);
 //===================//========================//===================
 //Question No.13 - JavaScript Program to Check Prime Number
 // let num = parseInt(prompt("Enter The Number"));
-// // let num = 5;
-// let count = 0;
-// if (num <= 0) {
-//     console.log(num, "Please Enter the positive number");
-// }
-// else if (num == 1) {
-//     console.log("1 is nieghter prime number nor composite number");
-// } else {
-//     for (let i = 1; i <= num; i++) {
-//         let rem = num % i;
-//         if (rem == 0) {
-//             count++;
-//         }
-//     }
-//     if (count == 2) {
-//         console.log(num, " is Prime Number");
-//     }
-//     else {
-//         console.log(num, " is not Prime Number");
-//     }
-// }
+let num = 15;
+let count = 0;
+if (num <= 0) {
+    console.log(num, "Please Enter the positive number");
+}
+else if (num == 1) {
+    console.log("1 is nieghter prime number nor composite number");
+} else {
+    for (let i = 1; i <= num; i++) {
+        let rem = num % i;
+        if (rem == 0) {
+            count++;
+        }
+    }
+    if (count == 2) {
+        console.log(num, " is Prime Number");
+    }
+    else {
+        console.log(num, " is not Prime Number");
+    }
+}
 //===================//========================//===================
 //Question No.14 - JavaScript Program to Print All Prime Numbers in an Interval
 // let minNum = 1;
