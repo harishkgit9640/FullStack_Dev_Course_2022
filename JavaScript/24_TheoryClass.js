@@ -1,0 +1,1 @@
+// We Descussed about console functions
