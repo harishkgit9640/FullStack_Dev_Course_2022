@@ -170,27 +170,27 @@ console.log(arr);
 //===================//========================//===================
 //Question No.13 - JavaScript Program to Check Prime Number
 // let num = parseInt(prompt("Enter The Number"));
-let num = 15;
-let count = 0;
-if (num <= 0) {
-    console.log(num, "Please Enter the positive number");
-}
-else if (num == 1) {
-    console.log("1 is nieghter prime number nor composite number");
-} else {
-    for (let i = 1; i <= num; i++) {
-        let rem = num % i;
-        if (rem == 0) {
-            count++;
-        }
-    }
-    if (count == 2) {
-        console.log(num, " is Prime Number");
-    }
-    else {
-        console.log(num, " is not Prime Number");
-    }
-}
+// let num = 15;
+// let count = 0;
+// if (num <= 0) {
+//     console.log(num, "Please Enter the positive number");
+// }
+// else if (num == 1) {
+//     console.log("1 is nieghter prime number nor composite number");
+// } else {
+//     for (let i = 1; i <= num; i++) {
+//         let rem = num % i;
+//         if (rem == 0) {
+//             count++;
+//         }
+//     }
+//     if (count == 2) {
+//         console.log(num, " is Prime Number");
+//     }
+//     else {
+//         console.log(num, " is not Prime Number");
+//     }
+// }
 //===================//========================//===================
 //Question No.14 - JavaScript Program to Print All Prime Numbers in an Interval
 // let minNum = 1;
@@ -262,7 +262,7 @@ else if (num == 1) {
 //     num = parseInt((num / 10));
 // }
 // if (sum === user) {
-//     console.log(user, "is Armstrong userber");
+//     console.log(user, "is Armstrong number");
 // } else {
 //     console.log(user, "is not Armstrong number");
 
@@ -333,7 +333,39 @@ else if (num == 1) {
 // console.log("It is HCF", HCF);
 
 //===================//========================//===================
-// Question No.23 -
+// Question No.23 - JavaScript Program to Find LCM
 
+let num1 = 4;
+let num2 = 8;
+let min;
+
+
+// check which num is big
+// if (num1 > num2) {
+//     min = num1;
+//     // console.log("first", min);
+// } else {
+//     min = num2;
+//     // console.log("second", min);
+// }
+
+// we have one more method Which is Ternary operator ->  we can also write like that
+
+min = (num1 > num2) ? num1 : num2;
+
+
+let count = 0;
+while (true) {
+
+    // check the number which return 0;
+    if (min % num1 == 0 && min % num2 == 0) {
+        console.log("The LCM of given no. is =", min);
+        break;
+    }
+    //  Count Iteration
+    count++;
+    min++;
+}
+console.log("The total number of iteration is: ", count);
 //===================//========================//===================
 // Question No.24 - 
