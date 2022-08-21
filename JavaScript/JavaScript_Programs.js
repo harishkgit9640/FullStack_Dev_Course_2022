@@ -334,7 +334,7 @@ console.log(arr);
 
 //===================//========================//===================
 // Question No.23 - JavaScript Program to Find LCM
-
+/*
 let num1 = 4;
 let num2 = 8;
 let min;
@@ -367,5 +367,46 @@ while (true) {
     min++;
 }
 console.log("The total number of iteration is: ", count);
+*/
 //===================//========================//===================
-// Question No.24 - 
+// Question No.24 - JavaScript Program to Find the Factors of a Number
+
+// let num = 20;
+// for (let i = 1; i <= num; i++) {
+//     if (num % i == 0) {
+//         console.log(i);
+//     }
+// }
+
+//===================//========================//===================
+// Question No.25 - JavaScript Program to Find Sum of Natural Numbers Using Recursion
+// let number = 10;
+// function sum(num) {
+//     if (num > 0) {
+//         return num + sum(num - 1); 10 + 0 + 9
+//     }
+//     else {
+//         return num;
+//     }
+// }
+// const result = sum(number);
+// console.log("Sum of Natural Number using Recursion Is: =", result);
+
+// // <===============================>
+// // using loop
+// let total = 0;
+// for (let i = 0; i <= number; i++) {
+//     total += i;
+// }
+// console.log("total of Natural Number Is: =", total);
+
+//===================//========================//===================
+// Question No.26 -
+
+
+
+
+//===================//========================//===================
+// Question No.27 -
+//===================//========================//===================
+// Question No.28 -
