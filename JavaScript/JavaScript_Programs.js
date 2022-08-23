@@ -401,10 +401,33 @@ console.log("The total number of iteration is: ", count);
 // console.log("total of Natural Number Is: =", total);
 
 //===================//========================//===================
-// Question No.26 -
+// Question No.26 - JavaScript Program to Guess a Random Number
 
+function guessNumber() {
+    let count = 0;
+    let input = parseInt(prompt("Guess The next number"));
+    const rand = Math.floor(Math.random() * 100);
+    while (input != rand) {
+        let input = parseInt(prompt("Guess The next number"));
+        count++;
+        if (input === rand) {
+            alert("You Are Guess The Correct Number", count);
+            // console.log("You Are Guess The Correct Number", count);
+            break;
+        }
+        else if (input > rand) {
+            alert("Entered Number is too big", input);
+            // console.log("Entered Number is too big");
+        }
+        else {
+            alert("Entered Number is too Small", input);
+            // console.log("Entered Number is too Small");
+        }
 
+    }
 
+}
+guessNumber();
 
 //===================//========================//===================
 // Question No.27 -
