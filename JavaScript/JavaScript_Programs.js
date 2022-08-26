@@ -168,7 +168,7 @@ console.log(arr);
 // }
 
 //===================//========================//===================
-//Question No.13 - JavaScript Program to Check Prime Number
+//Question No.13 - JavaScript Program to Check `Prime` Number
 // let num = parseInt(prompt("Enter The Number"));
 // let num = 15;
 // let count = 0;
@@ -205,7 +205,6 @@ console.log(arr);
 //             break;
 //         }
 //     }
-
 //     // if number greater than 1 and not divisible by other numbers
 //     if (i > 1 && round == 0) {
 //         console.log(i);
@@ -431,5 +430,8 @@ guessNumber();
 
 //===================//========================//===================
 // Question No.27 -
+
+
+
 //===================//========================//===================
 // Question No.28 -
