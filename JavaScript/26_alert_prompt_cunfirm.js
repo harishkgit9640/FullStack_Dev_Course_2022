@@ -6,4 +6,4 @@ if (write) {
     document.write("he value of a:" + a)
 } else {
     alert("You have to click on Ok button for view the result of a")
-}
+}   
