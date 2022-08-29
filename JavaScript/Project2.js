@@ -1,9 +1,9 @@
-// Snake Water Gun
+// GAME CHALLENGE Snake Water Gun.
 
 let user_count = 0;
 let comp_count = 0;
 let chance = 0;
-while (chance <= 5) {
+while (chance <= 10) {
     let user = prompt("Choose snake water and gun!");
     let computer = ["snake", "water", "gun"];
     computer = computer[Math.floor(Math.random() * computer.length)];
@@ -37,7 +37,7 @@ while (chance <= 5) {
     }
     chance++;
 }
-if (chance === 5) {
+if (chance === 10) {
     console.log("Try Again!");
 }
 
@@ -54,6 +54,4 @@ else if (comp_count === user_count) {
 else {
     console.log("User Win!" + comp_count + " and " + user_count);
     console.log("computer score = " + comp_count + "\n user score = " + user_count);
-
-
 }
