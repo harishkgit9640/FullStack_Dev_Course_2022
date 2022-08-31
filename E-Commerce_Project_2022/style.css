@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --blueDark: #4158d0;
+    --violet: #c850c0;
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --black: #000000;
+    --bgColor: linear-gradient(45deg, #0c2fde 1%, #c850c0 84%);
+    --shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    background-image: var(--bgColor)
+}
+
+/* .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--bgColor)
+} */
+
+.right {
+    height: 400px;
+    width: calc(100% - 40%);
+}
+
+.form_item {
+    margin: 25px;
+}
+
+
+form h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    text-align: center;
+    background: var(--bgColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+form label {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid lightblue;
+    border-radius: 2px;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid var(--blue);
+}
+
+button {
+    font-size: 24px;
+    color: var(--white);
+    padding: 5px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    background-image: linear-gradient(45deg, #c850c0 1%, #0c2fde 84%);
+}
+
+button:hover {
+    background-image: var(--bgColor)
+}
+
+form .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+form .links span {
+    color: #333;
+}
+
+form .links a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+form .links a:hover {
+    text-decoration: underline;
+    font-weight: 500;
+
+}
+
+
+/* ==============Log In page =============== */
+
+body,
+.main_box {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.main_box {
+    width: 800px;
+    height: 400px;
+}
+
+.left {
+    width: 50%;
+    height: 400px;
+}
+
+.left img {
+    width: 100%;
+    height: 100%;
+}
