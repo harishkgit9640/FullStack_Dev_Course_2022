@@ -28,7 +28,7 @@
     height: 350px;
     padding: 0px 40px;
     border-radius: 5px;
-    background-color: lightgray;
+    background-color: #2e2e2e;
   }
 
   span {
@@ -37,7 +37,7 @@
     text-align: center;
     font-size: 35px;
     font-weight: 600;
-    color: crimson;
+    color: orange;
     font-family: 'Poppins';
   }
 
@@ -55,6 +55,7 @@
     font-size: 30px;
     line-height: 2;
     text-align: center;
+    color: #fff;
     background: transparent;
   }
 
@@ -66,7 +67,7 @@
     outline: none;
     border: none;
     color: white;
-    background-color: crimson;
+    background-color: orange;
   }
 </style>
 
@@ -75,8 +76,7 @@
   <div class="wrapper">
     <span>Random Jokes</span>
     <textarea name="joke" id="my_joke"></textarea>
-
-    <button>Next</button>
+    <button onclick="location.reload();">Next</button>
   </div>
 
   <script src="03_Exercise.js"></script>

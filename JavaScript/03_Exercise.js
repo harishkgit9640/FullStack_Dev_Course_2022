@@ -126,5 +126,4 @@ let genRandomJoke = jokeArr[Math.floor(Math.random() * jokeArr.length)]
 
 
 let displayJoke = document.getElementById("my_joke");
-
 displayJoke.innerHTML = genRandomJoke;
