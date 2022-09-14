@@ -21,17 +21,40 @@ function addItem() {
 }
 
 function clearDone() {
-    inpNewTask.val('')
+    inpNewTask.val("");
+    toggleReset(true);
 }
 
 function sortTask() {
-    inpNewTask.val('sorted')
-
+    $('#ulTask .done').appendTo(ulTask);
 }
 
 function delTask() {
-    inpNewTask.val('deleted')
+    $('#ulTask .done').remove();
 }
+
+
+function toggleReset(valEmpty) {
+    if (!valEmpty) {
+        resetBtn.prop('disabled', false)
+        addBtn.prop('disabled', false)
+    } else {
+        resetBtn.prop('disabled', true)
+        addBtn.prop('disabled', true)
+    }
+}
+
+
+inpNewTask.keypress((e) => {
+    if (e.which == 13) {
+        addItem()
+    }
+});
+
+inpNewTask.on('input', () => {
+    toggleReset(inpNewTask.val() == "");
+})
+
 
 
 addBtn.click(addItem);
