@@ -5,7 +5,6 @@
 // let arr = Array.from((document.body.childNodes));
 
 // matches closest and contains methods
-
 const Heading = document.getElementById('heading')
 const div = document.getElementById('div_box')
 const span = document.getElementById('sp1')
