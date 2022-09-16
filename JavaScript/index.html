@@ -16,78 +16,38 @@
     border: 2px solid red;
     display: grid;
     place-items: center;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .darkMode {
+    background-color: black;
+    color: white;
+  }
+
+  .lightMode {
+    background-color: white;
+    color: black;
   }
 </style>
 
 <body>
-  starting of box_Container
-  <div class="Mianbox" id="box" data-game="mobileGame" data-player="hariSh">
-    minddle of box_Container
+  <div class="Mianbox darkMode" id="box">
+    <div class="inner_box">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt repudiandae praesentium quaerat rem, minus
+      ratione numquam impedit assumenda minima non unde, nulla ut provident excepturi sunt expedita reprehenderit ipsa
+      aliquam.
+    </div>
+    <span>
+      <h1>Dark Mode Enabled</h1>
+    </span>
+    <!-- <div class="Mianbox" id="box" data-game="mobileGame" data-player="hariSh"> -->
     <!-- <span id="span1" class="harsh"> <b>good morning</b></span> <br>
   <span id="span2"><b>I am outer span </b><br> -->
-    <input type="button" value="Click Me" onclick="Class_43();">
+    <input type="button" value="Click Me" onclick="Class_46();">
   </div>
-  End of box_Container
 </body>
 
-<script>
-  /*
-  // class - 41
-  function Class_41() {
-    document.getElementById('span1').innerHTML = 'I am span1'
-    document.getElementById('span2').innerHTML = 'I am span2'
-    let span2 = document.getElementById('span2')
-    let innerHTML = document.getElementById('span2').innerHTML
-    let outerHTML = document.getElementById('span2').outerHTML
-    let textContent = document.getElementById('span2').textContent
-    console.dir(span2);
-    console.log(innerHTML);
-    console.log(outerHTML);
-    console.log(textContent);
-  }
-  */
-
-  /*
-  // class - 41
-  function Class_42() {
-    let box = document.querySelector('#box')
-    // let mainBox = box.getAttribute('class');
-    // console.log(box.hasAttribute('class'));
-    // let mainBox = box.setAttribute('src', '/img/img_1');
-    // let mainBox = box.setAttribute('hidden', 'false');
-    // let mainBox = box.removeAttribute('hidden', 'false');
-    // let mainBox = box.attributes;
-    // console.log(box.dataset);
-    // console.log(box.dataset.player);
-
-    // console.log(box);
-    // console.log(mainBox);
-
-  }
-  */
-
-  // class - 41
-  function Class_43() {
-    let box = document.querySelector('#box');
-    // box.innerHTML = '<h1>WELCOME TO JAVASCRIPT</h1>';
-
-    //using loop
-    // for (let i = 1; i < 5; i++) {
-    //   let p = document.createElement('p');
-    //   p.innerHTML = 'IAM PARA'
-    //   box.append(p);
-    // }
-
-    let p = document.createElement('p');
-    p.innerHTML = 'IAM PARA'
-    // box.prepend(p);  // At the beginning of the element
-    // box.append(p);  // At the end of the element
-    // box.before(p);  // At the before of the element
-    // box.after(p);  // At the after of the element
-    box.replaceWith(p);  // At the Replace from the element
-
-  }
-
-</script>
+<script src="Chapter_08.js"></script>
 
 </html>
