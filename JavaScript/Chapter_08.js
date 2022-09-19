@@ -27,10 +27,10 @@ function Class_42() {
   // let mainBox = box.attributes;
   // console.log(box.dataset);
   // console.log(box.dataset.player);
- 
+
   // console.log(box);
   // console.log(mainBox);
- 
+
 }
 */
 
@@ -39,14 +39,14 @@ function Class_42() {
   function Class_43() {
     let box = document.querySelector('#box');
     // box.innerHTML = '<h1>WELCOME TO JAVASCRIPT</h1>';
- 
+
     //using loop
     // for (let i = 1; i < 5; i++) {
     //   let p = document.createElement('p');
     //   p.innerHTML = 'IAM PARA'
     //   box.append(p);
     // }
- 
+
     let p = document.createElement('p');
     p.innerHTML = ' <h1>IAM PARA</h1>'
     box.prepend(p);  // At the beginning of the element
@@ -85,26 +85,29 @@ box.remove();
 // class - 46
 function Class_46() {
   let box = document.querySelector('#box');
- 
-  // setTimeInterval Runs Infinite according to set TimeInterval  
+
+  // setTimeInterval Runs Infinite according to set TimeInterval
   // setInterval(() => {
   //   box.classList.toggle('lightMode')
   //   document.querySelector('span').innerHTML = '<h1>Light Mode Enabled</h1>';
   // }, 2000);
- 
- 
- 
+
+
+
   // setTimeout Run onces
   setTimeout(() => {
     box.classList.toggle('lightMode')
   }, 2000);
- 
+
 }
 */
 
+// setInterval(() => {
+//   let box = document.getElementById('box')
+//   box.classList.toggle('lightMode')
+// }, 1000);
 
-
-// class - 47
-function Class_47() {
-
-}
+let box = document.getElementById('box')
+btn.addEventListener("click", function () {
+  box.classList.toggle('lightMode')
+});
