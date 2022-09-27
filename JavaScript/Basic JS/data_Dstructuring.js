@@ -1,12 +1,7 @@
 
-// let color = ["black","Red","yellow"];
-
-let obj1 = {
-    name: "harish",
-    age: 21
-}
-
-console.log(obj1);
+let color = ["black", "Red", "yellow"];
+let [b, r, y] = color;
+console.log(r);
 
 
 // const arr = [1, 2, 3, 4, 5, 6, 7, 8];
