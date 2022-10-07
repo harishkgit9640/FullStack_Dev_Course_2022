@@ -6,15 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajax Completed Course - 2022</title>
-
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>Ajax Completed Course - 2022</h1>
-    <h2>complete Fetch API </h2>
+    <div class="container my-5 text-center">
+        <h2>Demonstration of GET OR POST Method</h2>
+        <h1 id="heading">Ajax Completed Course - 2022</h1>
+        <button id="Btn" class="btn btn-success">Click Me</button>
+    </div>
 
-    <script src="app.js"></script>
+    <script>
+        // Example of Get method
 
+        // $(document).ready(function () {
+        //     $('#Btn').click(function () {
+        //         $.get('app.js', function (data, status) {
+        //             $('#heading').html(data);
+        //             alert(status);
+        //         });
+        //     });
+        // });
+
+
+        // Example of Post method
+        $(document).ready(function () {
+            $('#Btn').click(function () {
+                $.post("app.js", {
+                    name: "harish ",
+                    add: 'Chhattisagrh'
+                }, function (data, textStatus, jqXHR) {
+                    $('#heading').html(data)
+                    alert(textStatus)
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
