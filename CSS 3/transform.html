@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Property in css-3</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .wrapper {
+            width: 150px;
+            height: 150px;
+            background: red;
+            /* animation: rotate infinite linear 2s; */
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(45deg);
+            }
+
+            25% {
+                transform: rotate(90deg);
+                transform: scale(1.5);
+            }
+
+            50% {
+                transform: rotate(120deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+                transform: scale(0.9);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        Transform Property
+    </div>
+
+</body>
+
+</html>
