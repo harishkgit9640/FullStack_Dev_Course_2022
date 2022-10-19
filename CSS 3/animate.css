@@ -1,0 +1,34 @@
+@import 'animate.css';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 600px;
+    width: 600px;
+    /* background: #ddd; */
+    background-image: url('https://www.capturelandscapes.com/wp-content/uploads/2020/07/Set-up-new-camera.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    border: 1px solid #000;
+}
+
+.b1 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+}
