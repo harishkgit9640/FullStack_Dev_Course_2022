@@ -29,7 +29,7 @@ const Sidebar = () => {
         <NavLinks />
       </div>
       <div className="absolute md:hidden block top-6 right-3">
-        {menuOpen ? (<RiCloseLine className="w-6 h-6 text-white mr-2" />) : (<HiOutlineMenu className="w-6 h-6 text-white mr-2" />)}
+        {menuOpen ? (<RiCloseLine className="w-6 h-6 text-white mr-2" onClick={() => setMenuOpen(false)} />) : (<HiOutlineMenu className="w-6 h-6 text-white mr-2" onClick={() => setMenuOpen(true)} />)}
       </div>
 
       <div className={`absolute top-0 h-screen w-2/3 bg-gradient-to-tl from-white/10 to-[#483d8b] backdrop-blur-lg z-10 p-6 md:hidden smooth-transition ${menuOpen ? 'left-0' : '-left-full'}`}>
