@@ -11,41 +11,93 @@
             background: #aaa;
         }
 
-        .container {
+        /* .container {
             width: 600px;
             height: 600px;
             margin: 0 auto;
             border: 3px solid #000;
             background: #ddd;
             position: relative;
-        }
+        } */
 
         .box {
             width: 100px;
             height: 100px;
-            background: orangered;
+            background: #ff4500;
             position: absolute;
-            /* animation: bo1 10s linear infinite; */
+            animation: bo1 5s linear;
         }
 
         @keyframes bo1 {
             0% {
-                left: 0%;
+                top: 5%;
+                left: 5%;
             }
 
-            25% {
-                right: 0%;
+            9% {
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
 
-            75% {
-                bottom: 0%;
+            18% {
+                top: 6%;
+                left: 6%;
+            }
+
+            27% {
+                left: 100%;
+                top: 7%;
+            }
+
+            36% {
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            45% {
+                left: 100%;
+                top: 5%;
+            }
+
+            54% {
+                top: 100%;
+                left: 95%;
+            }
+
+
+            63% {
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            72% {
+                left: 96%;
+                top: 96%;
+            }
+
+            81% {
+                top: 95%;
+                left: 5%;
+            }
+
+
+            90% {
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            99% {
+                top: 95%;
+                left: 5%;
             }
 
             100% {
-                bottom: 0%;
-                /* bottom: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%); */
+                bottom: 96%;
+                top: 4%;
             }
         }
 
