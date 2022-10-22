@@ -17,7 +17,7 @@ const path = require('path');
 // console.log('folder name:', path.dirname(__filename));
 
 // #dirname
-// console.log('folder name:', path.basename(__filename));
+console.log('folder name:', path.basename(__filename));
 
 // #extension
 // console.log('folder name:', path.extname(__filename));
@@ -42,19 +42,44 @@ const fs = require('fs');
 
 // create a file in the directory
 
-fs.writeFile(path.join(__dirname, 'demo', 'scripts.js'), '//hello World\n', (err) => {
-    if (err) {
-        console.log(err);
-        return;
-    }
-    console.log('new file created');
+// fs.writeFile(path.join(__dirname, 'demo', 'scripts.js'), '//hello World\n', (err) => {
+//     if (err) {
+//         console.log(err);
+//         return;
+//     }
+//     console.log('new file created');
 
-    console.log('file created:', path.join(__dirname, 'demo', 'scripts.js'));
-    fs.appendFile(path.join(__dirname, 'demo', 'scripts.js'), '//Hello Im Javascript', (err) => {
-        if (err) {
-            console.log(err);
-            return;
-        }
-        console.log('new data loaded');
-    });
-});
+//     console.log('file created:', path.join(__dirname, 'demo', 'scripts.js'));
+//     fs.appendFile(path.join(__dirname, 'demo', 'scripts.js'), '//Hello Im Javascript', (err) => {
+//         if (err) {
+//             console.log(err);
+//             return;
+//         }
+//         console.log('new data loaded');
+//     });
+// });
+
+// #read file in the directory
+
+// fs.readFile(path.join(__dirname, 'demo', 'scripts.js'), 'utf8', (err, data) => {
+//     if (err) {
+//         console.log(err);
+//         return;
+//     }
+//     console.log(data);
+// });
+
+// #os module
+// const os = require('os');
+// console.log(os.platform());
+// console.log(os.arch());
+// console.log(os.release());
+// console.log(os.type());
+// console.log(os.freemem());
+// console.log(os.totalmem());
+// console.log(os.uptime());
+// console.log(os.cpus());
+// console.log(os.version());
+
+
+

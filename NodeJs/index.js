@@ -1,3 +1,1 @@
-let name = 'Harish Kumar'
-
-console.log(name);
+console.log('hello world');
