@@ -82,4 +82,34 @@ const fs = require('fs');
 // console.log(os.version());
 
 
+// #emitter module
 
+const Emitter = require('events');
+
+// const emitter = new Emitter();
+
+// emitter.on('test', (data) => {
+//    console.log(data);
+// });
+
+// emitter.emit('text', { name: 'hello nodejs' });
+
+// # Classes in NodeJs
+
+
+// class Auth extends Emitter {
+//    register(user) {
+//       console.log('register success!');
+//       this.emit('register', user);
+//    }
+// }
+
+// const auth = new Auth();
+// auth.on('register', (data) => {
+//    console.log(`sending email to ${data}`);
+// })
+// auth.on('register', (data) => {
+//    console.log(`sending Welcome email to ${data}`);
+// })
+
+// auth.register('Harish Kumar')
