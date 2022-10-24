@@ -1,0 +1,7 @@
+use
+show.<CollectionName>
+db.createCollection()
+db.<CollectionName>.drop()
+db.<CollectionName>.insertOne()
+db.<CollectionName>.insertMany()
+db.<CollectionName>.find()
