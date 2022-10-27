@@ -41,6 +41,43 @@
 /* ### Layout  -  03 */
 
 .container {
+    padding: 20px;
     display: grid;
-    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 80px 120px 400px 100px;
+    grid-gap: 20px;
+}
+
+.header {
+    grid-column: 1/-1;
+    grid-row: 1;
+    background: royalblue;
+}
+
+.menu {
+    grid-column: 1/-1;
+    grid-row: 2;
+    background: #111;
+}
+
+.box {
+    background: orange;
+}
+
+.sidebar {
+    grid-column: 3/-1;
+    grid-row: 3/5;
+    background: yellow;
+}
+
+.content {
+    grid-column: 1/3;
+    grid-row: 4;
+    background: gray;
+}
+
+.footer {
+    grid-column: 1/-1;
+    grid-row: 5;
+    background: royalblue;
 }
