@@ -1,0 +1,46 @@
+.item,
+.left,
+.right {
+    /* text-align: center; */
+    /* line-height: 200px; */
+    padding: 10px;
+    background: orange;
+    border: 1px solid #000;
+}
+
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: repeat(3, 200px);
+}
+*/
+
+
+/* ### Layout  -  02 */
+/* .container {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.box-a {
+    grid-column: 1/span 2;
+    grid-row: 1;
+}
+
+.box-b {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+.box-e {
+    grid-column: 1/span 3;
+    grid-row: span 3;
+} */
+
+/* ### Layout  -  03 */
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+}
