@@ -1,0 +1,6 @@
+1. - npm install express
+2. - npm install express-generator
+3. - epress <project Name>
+
+
+space desk -> screen sharing
