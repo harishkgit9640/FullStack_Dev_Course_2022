@@ -13,6 +13,11 @@ router.get('/about', (req, res) => {
         title: 'About page'
     })
 });
+router.get('/product', (req, res) => {
+    res.render('about', {
+        title: 'About page'
+    })
+});
 router.get('/download', (req, res) => {
     res.download(path.resolve(__dirname) + '/about.html');
 });
